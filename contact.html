@@ -238,7 +238,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -343,7 +343,7 @@
   <div class="nav-container">
     <div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="Moonlit den" class="logo" />
+        <img src="/assets/business-logo.webp" alt="Moonlit den" class="logo">
       </a>
     </div>
     
@@ -737,7 +737,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '03-1234567';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -852,20 +852,72 @@
             <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2.5 6.66667L10 11.6667L17.5 6.66667M3.33333 15H16.6667C17.5871 15 18.3333 14.2538 18.3333 13.3333V6.66667C18.3333 5.74619 17.5871 5 16.6667 5H3.33333C2.41286 5 1.66667 5.74619 1.66667 6.66667V13.3333C1.66667 14.2538 2.41286 15 3.33333 15Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <span>[business_email]</span>
+            <span>moonlit.den@gamil.com</span>
           </div>
           <div class="contact-contact-info-item">
             <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2.5 4.16667C2.5 3.24619 3.24619 2.5 4.16667 2.5H6.91667C7.14679 2.5 7.35714 2.64881 7.44643 2.86905L8.86905 6.30952C8.97024 6.55595 8.89881 6.83929 8.69643 7.00595L6.875 8.54167C7.91667 10.625 9.375 12.0833 11.4583 13.125L12.9940 11.3036C13.1607 11.1012 13.4440 11.0298 13.6905 11.131L17.131 12.5536C17.3512 12.6429 17.5 12.8532 17.5 13.0833V15.8333C17.5 16.7538 16.7538 17.5 15.8333 17.5H15C7.96243 17.5 2.5 12.0376 2.5 5V4.16667Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <span>[business_phone]</span>
+            <span>03-1234567</span>
           </div>
           <div class="contact-contact-info-item">
             <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10 10.8333C11.3807 10.8333 12.5 9.71405 12.5 8.33333C12.5 6.95262 11.3807 5.83333 10 5.83333C8.61929 5.83333 7.5 6.95262 7.5 8.33333C7.5 9.71405 8.61929 10.8333 10 10.8333Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               <path d="M10 17.5C13.3333 14.1667 16.6667 11.4369 16.6667 8.33333C16.6667 4.65143 13.6819 1.66667 10 1.66667C6.3181 1.66667 3.33333 4.65143 3.33333 8.33333C3.33333 11.4369 6.66667 14.1667 10 17.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-            <span>[business_address]</span>
+            <span>כתובת החברה, --, South Carolina , United States </span>
+          </div>
+        </div>
+        <div class="contact-contact-info-block" data-element-id="element-ai-1736700000000-h8k2m9" data-element-type="business-hours">
+          <h3>Business Hours</h3>
+          <div class="contact-contact-info-item">
+            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+              <path d="M10 5V10L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span>Monday: 05:00 - 17:00</span>
+          </div>
+          <div class="contact-contact-info-item">
+            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+              <path d="M10 5V10L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span>Tuesday: 06:00 - 17:00</span>
+          </div>
+          <div class="contact-contact-info-item">
+            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+              <path d="M10 5V10L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span>Wednesday: 09:00 - 17:00</span>
+          </div>
+          <div class="contact-contact-info-item">
+            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+              <path d="M10 5V10L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span>Thursday: 09:00 - 17:00</span>
+          </div>
+          <div class="contact-contact-info-item">
+            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+              <path d="M10 5V10L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span>Friday: Closed</span>
+          </div>
+          <div class="contact-contact-info-item">
+            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+              <path d="M10 5V10L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span>Saturday: Closed</span>
+          </div>
+          <div class="contact-contact-info-item">
+            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+              <path d="M10 5V10L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+            <span>Sunday: Closed</span>
           </div>
         </div>
         <div class="contact-contact-social-links">
@@ -874,14 +926,14 @@
               <path d="M15 1.66667H12.5C11.3949 1.66667 10.3351 2.10565 9.55372 2.88705C8.77232 3.66846 8.33333 4.72826 8.33333 5.83333V8.33333H5.83333V11.6667H8.33333V18.3333H11.6667V11.6667H14.1667L15 8.33333H11.6667V5.83333C11.6667 5.61232 11.7545 5.40036 11.9107 5.24408C12.067 5.0878 12.279 5 12.5 5H15V1.66667Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </a>
-          <a href="https://instagram.com/[instagram_handle]" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" style="display:none !important;">
             <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect x="2.5" y="2.5" width="15" height="15" rx="3.33333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></rect>
               <path d="M13.3333 9.475C13.4362 10.1685 13.3178 10.8769 12.9948 11.4992C12.6718 12.1215 12.161 12.6262 11.5347 12.9414C10.9084 13.2566 10.1985 13.3663 9.50641 13.2549C8.81428 13.1436 8.17482 12.8167 7.67895 12.3208C7.18309 11.825 6.85624 11.1855 6.74487 10.4934C6.6335 9.80125 6.74318 9.09135 7.05835 8.46506C7.37353 7.83877 7.87824 7.32798 8.50051 7.00497C9.12279 6.68196 9.83118 6.56355 10.5247 6.66649C11.2324 6.77153 11.8874 7.10161 12.393 7.60721C12.8986 8.11281 13.2287 8.76783 13.3337 9.47549L13.3333 9.475Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               <path d="M14.1667 5.83333H14.175" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </a>
-          <a href="https://wa.me/[whatsapp_handle]" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" style="display:none !important;">
             <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M17.0833 9.58333C17.0833 13.9556 13.5389 17.5 9.16667 17.5C7.80556 17.5 6.52778 17.1389 5.41667 16.5L2.5 17.5L3.5 14.5833C2.86111 13.4722 2.5 12.1944 2.5 10.8333C2.5 6.46111 6.04445 2.91667 10.4167 2.91667C14.7889 2.91667 18.3333 6.46111 18.3333 10.8333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               <path d="M12.9167 11.6667C12.9167 11.6667 12.5 12.0833 11.6667 11.25C10.8333 10.4167 9.58333 9.16667 8.75 8.33333C7.91667 7.5 8.33333 7.08333 8.33333 7.08333C8.33333 7.08333 9.16667 6.66667 9.58333 7.5C10 8.33333 10.4167 9.16667 10.4167 9.16667C10.4167 9.16667 11.25 8.75 12.0833 9.58333C12.9167 10.4167 12.9167 11.6667 12.9167 11.6667Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1077,7 +1129,7 @@
   <div class="footer-container">
     <div class="footer-top">
       <div class="footer-column footer-about">
-        <img src="/assets/business-logo.webp" alt="Moonlit den" class="logo" />
+        <img src="/assets/business-logo.webp" alt="Moonlit den" class="logo">
         <p class="footer-description">Innovative technology solutions for the modern digital landscape.</p>
       </div>
       
@@ -1093,9 +1145,9 @@
       <div class="footer-column footer-contact">
         <h3 class="footer-heading">Contact Us</h3>
         <ul class="footer-contact-list">
-          <li><i class="fas fa-envelope"></i> <a href="mailto:[business_email]">[business_email]</a></li>
-          <li><i class="fas fa-phone"></i> <a href="tel:[business_phone]">[business_phone]</a></li>
-          <li><a href="/"><i class="fas fa-map-marker-alt"></i> <span>[business_address]</span></a></li>
+          <li><i class="fas fa-envelope"></i> <a href="mailto:moonlit.den@gamil.com">moonlit.den@gamil.com</a></li>
+          <li><i class="fas fa-phone"></i> <a href="tel:03-1234567">03-1234567</a></li>
+          <li><a href="/"><i class="fas fa-map-marker-alt"></i> <span>כתובת החברה, --, South Carolina , United States </span></a></li>
         </ul>
       </div>
       
@@ -1103,8 +1155,8 @@
         <h3 class="footer-heading">Connect With Us</h3>
         <div class="social-links">
           <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
