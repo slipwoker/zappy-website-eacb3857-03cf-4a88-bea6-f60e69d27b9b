@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### Home
+https://example.com
+Experience seamless communication with text, voice, and group chat while connecting with online gaming communities. Game together, chat anywhere, anytime.
+
+### Platform
+https://example.com/platform
+Text to email and phone, crystal-clear voice calls, and group messaging all in one platform. Powered by cutting-edge technology for seamless connectivity.
+
+### Community & Games
+https://example.com/community
+Discover vibrant online gaming communities with integrated gaming features. Connect with friends, form groups, and experience social gaming like never before.
+
+### Contact
+https://example.com/contact
+Ready to transform how your community connects? Reach out to learn how Moonlit den powers online gaming communities with next-gen communication tools.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
